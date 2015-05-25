@@ -19,6 +19,8 @@ use std::collections::hash_map::Entry::*;
 use std::fmt;
 use std::error::Error as StdError;
 
+pub mod helpers;
+
 /// Plugin for `Request` that extracts URL encoded data from the URL query string.
 ///
 /// Use it like this: `req.get_ref::<UrlEncodedQuery>()`

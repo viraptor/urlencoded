@@ -11,6 +11,10 @@ documentation = "http://ironframework.io/doc/urlencoded/"
 description = "Decoding middleware for url-encoded data. For use with Iron."
 license = "MIT"
 
+[lib]
+name = "urlencoded"
+doctest = false
+
 [dependencies]
 iron = "*"
 url = "*"
